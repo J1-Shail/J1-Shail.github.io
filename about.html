@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Student Performance</title>
+    <link href="style-about.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <ul class="nav-menu">
+          <li class ='homebutton'><a href="Report-Page.html">Home</a></li>
+          <li class="aboutbutton"><a href="about.html">About</a></li>
+          <li class="graphsbutton"><a href="graphs.html">Graphs</a></li>
+          <li class="conclusionbutton"><a href="conclusion.html">Conclusion</a></li>
+        </ul>
+      </div>
+    </header><br>
+
+    <div class="main-text",id="wrapper">
+      <article class="text">
+      <h1><b><u>The Dataset</u></b></h1><br>
+      <p id='intro-dataset'>The dataset being analysed for the purpose of
+         this report website consisted of <strong><em>22 attributes
+         </em></strong> and <strong><em>131 student entries</em></strong>.<br>
+         Below is an example of the head of the Dataset. <p>
+           <br><br>
+      <img src="head_data1.png" alt=""><br><em>Figure 1.1</em><br><br><br><br>
+
+
+
+      <h2><u><b>Missing Data</b></u></h2><br>
+      <p>When first importing the dataset it is important to have a look at
+        what cleaning is required before performing any analysis.<br>
+        In viewing the head of the dataset (Figure 1.1) it became apparent that
+        the first row had not been used and was showing only</br> NaN values.
+        To overcome this issue I dropped any row that contained only NaN values.
+        Now the head of the data only contains <br> actual values (Figure 1.2).
+      </p><br><br>
+
+      <img src="head_data.png" alt=""><br><em>Figure 1.2</em><br><br>
+
+      <p>The final check was to perform a count of any missing values
+      within the data set <em>dataframe.isna().sum()</em>.<br> The output from
+      this is displayed in Table 1.3 below. This is showing no missing values
+      so plotting can begin.</p></br>
+
+      <table border = "1">
+         <tr>
+            <th><b>Column Name</b></th>
+            <th><b>Number of Null Values</b></th>
+            <tr><td>Gender</td><td>0</td></tr>
+   <tr><td>Caste</td><td>0</td></tr>
+   <tr><td>GCSE_Performance</td><td>0</td></tr>
+   <tr><td>Alevel_Performance</td><td>0</td></tr>
+   <tr><td>InternalAssesment_Performance</td><td>0</td></tr>
+   <tr><td>FinalExam_Performance</td><td>0</td></tr>
+   <tr><td>Has_Arrears</td><td>0</td></tr>
+   <tr><td>MartialStatus</td><td>0</td></tr>
+   <tr><td>TownOrVillage</td><td>0</td></tr>
+   <tr><td>Admission_Category</td><td>0</td></tr>
+   <tr><td>FamilyMonthlyIncome</td><td>0</td></tr>
+   <tr><td>Family_Size</td><td>0</td></tr>
+   <tr><td>Father_Qualifications</td><td>0</td></tr>
+   <tr><td>Mother_Qualifications</td><td>0</td></tr>
+   <tr><td>Father_Occupation</td><td>0</td></tr>
+   <tr><td>Mother_Occupation</td><td>0</td></tr>
+   <tr><td>Number_of_friends</td><td>0</td></tr>
+   <tr><td>Study_Hours</td><td>0</td></tr>
+   <tr><td>School_Type</td><td>0</td></tr>
+   <tr><td>Language</td><td>0</td></tr>
+   <tr><td>College_Traveltime</td><td>0</td></tr>
+   <tr><td>Class_Attendance</td><td>0</td></tr>
+ </table><br><em>Table 1.3</em>
+    </div>
+
+
+
+      </article>
+    </div>
+
+
+  </body>
+</html>

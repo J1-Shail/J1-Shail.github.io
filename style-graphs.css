@@ -1,0 +1,79 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('graphs.jpg');
+   background-size: cover;
+   height:100vh;
+   background-position: center;
+   text-position:center;
+}
+
+.nav-menu{
+  position: absolute;
+  right: 0;
+  list-style: none;
+  margin-top:40px;
+}
+
+.nav-menu li {
+  display:inline-block;
+}
+
+.nav-menu li a{
+  color: grey;
+  text-decoration: none;
+  padding : 20px;
+  font-family :"Arial";
+  font-size : 20px;
+}
+
+.graphsbutton a {
+  border : 1.5px solid white;
+  background-color: white;
+}
+
+.nav-menu li a:hover{
+  border : 1.5px solid white;
+  background-color: white;
+}
+
+.main-text{
+  text-align: center;
+  color : white;
+  font-size: 20px;
+
+}
+
+article{
+  position: center;
+  padding: 20px;
+  background-color: rgba(192,192,192,.1);
+  margin-top: 100px;
+  width: 75%;
+  display: inline-block;
+  border-radius: 2em;
+ }
+
+ img {
+     max-width: 100%;
+     height: auto;
+     width: auto\9;
+     background-color: white;
+ }
+
+ .flex-container {
+   display: flex;
+   flex-wrap: nowrap;
+   background-color: clear;
+ }
+
+ .flex-container .box {
+   background-color: clear;
+   width: 50%;
+   margin: 30px;
+ }

@@ -1,0 +1,57 @@
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Data_Science.jpg');
+   background-size: cover;
+   height:100vh;
+   background-position: center;
+   text-position:center;
+}
+
+.nav-menu{
+  float :right;
+  list-style: none;
+  margin-top:40px;
+}
+
+.nav-menu li {
+  display : inline-block;
+}
+
+.nav-menu li a{
+  color: grey;
+  text-decoration: none;
+  padding : 20px;
+  font-family :"Arial";
+  font-size : 20px;
+}
+
+.homebutton a {
+  border : 1.5px solid white;
+  background-color: white;
+}
+
+.nav-menu li a:hover{
+  border : 1.5px solid white;
+  background-color: white;
+}
+
+h1{
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  background-color: clear;
+
+  width: 75%;
+  border-radius: 2em;
+  display: inline-block;
+  text-align: center;
+  font-size : 80px;
+  font-family : 'sans-serif';
+  color: white;
+}
